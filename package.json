@@ -1,6 +1,6 @@
 {
   "name": "vx-http",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "http interface plugin for Vx",
   "main": "index.js",
   "directories": {
