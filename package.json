@@ -1,0 +1,31 @@
+{
+  "name": "vx-http",
+  "version": "0.0.1",
+  "description": "http interface plugin for Vx",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/grunt test"
+  },
+  "keywords": [
+    "vx"
+  ],
+  "devDependencies": {
+    "mocha": "~2.2.1",
+    "help-me-test": "0.0.3",
+    "grunt-eslint": "8.0.0",
+    "grunt-contrib-watch": "0.6.1",
+    "grunt-jsdoc": "0.5.8",
+    "grunt-mocha-istanbul": "2.3.1",
+    "grunt-contrib-clean": "0.6.0",
+    "grunt-release": "0.11.0"
+  },
+  "author": "Seth McLaughlin",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "bluebird": "^2.3.2",
+    "mustache": "^1.1.0"
+  }
+}
